@@ -110,8 +110,7 @@ using (var scope = app.Services.CreateScope())
     DbSeeder.Seed(context);
 }
 
-if (app.Environment.IsDevelopment())
-{
+// production
 
     app.UseSwagger();
     app.UseSwaggerUI(c =>
@@ -119,7 +118,7 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "PMS API v1");
     });
 
-}
+
 
 app.UseMiddleware<ExceptionMiddleware>();
 
