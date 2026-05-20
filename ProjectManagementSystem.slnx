@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <File Path="Dockerfile.txt" />
     <Project Path="src/PMS.Api/PMS.Api.csproj" />
     <Project Path="src/PMS.Application/PMS.Application.csproj" />
     <Project Path="src/PMS.Domain/PMS.Domain.csproj" />
