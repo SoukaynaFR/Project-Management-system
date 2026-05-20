@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PMS.Api/PMS.Api.csproj" />
+    <Project Path="src/PMS.Application/PMS.Application.csproj" />
+    <Project Path="src/PMS.Domain/PMS.Domain.csproj" />
+    <Project Path="src/PMS.Infrastructure/PMS.Infrastructure.csproj" />
+  </Folder>
+</Solution>
